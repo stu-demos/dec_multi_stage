@@ -1,7 +1,5 @@
 pipeline {
-    options {
-      newContainerPerStage
-    }
+   
     agent none
     stages {
         stage('Images') {
