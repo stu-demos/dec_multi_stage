@@ -1,6 +1,6 @@
 pipeline {
     options {
-      newContainerPerStage()
+      newContainerPerStage
     }
     agent none
     stages {
